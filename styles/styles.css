@@ -116,12 +116,12 @@ body {
 
 .navbar {
     background-color: var(--primary-800);
-    margin: 0 auto;
+   
 }
 
 .navbar__list {
     display: flex;
-    padding: 6px 0;
+    padding: 0 auto;
     width: 100%;
     margin: 0 auto;
     list-style: none;
@@ -144,4 +144,12 @@ body {
     .navbar__link:hover {
         color: var(--secondary-300);
     }
+}
+
+.navbar__link.active {
+    background-color: var(--white);
+    color: var(--primary-950);
+    font-weight: bold ;
+    padding: 8px 24px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
