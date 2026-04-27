@@ -1,0 +1,69 @@
+/* contenedor de las cards */
+.services__cards-container{
+    display: grid;
+    justify-content: center;     
+    margin: 0 24px;
+    row-gap: 24px;       /* row es fila*/
+
+}
+
+@media (width > 768px) {
+    .services__cards-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    
+
+@media (width > 768px) {
+    .services__cards-container{
+        grid-template-columns: repeat(3, 1fr);
+          /* No se le agrega gap ya que lo hereda*/
+    }
+}
+}
+/* contenedor de las cards */
+
+.card{
+    text-align: center;
+    border: 1px solid var(--terciary-950);
+    border-radius: 4px;
+    padding: 0 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.card__icon--main{
+    height: 56px;
+    width: 56px;
+}
+
+.card__icon--secundary{
+    height: 36px;
+    width: 36px;
+}
+
+
+/* Breakpoints
+sm 640px telefonos grandes
+md 768px tablets
+lg 1024px laptos 
+xl 1280px escritorios
+2xl 1536px pantallas grandes */
+
+
+
+

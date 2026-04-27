@@ -1,0 +1,28 @@
+[
+    {
+        "id": "disenoWeb",
+        "title": "Diseño web",
+        "icon1": "../asets/icons/icon1.svg",
+        "icon2": "../asets/icons/icon2.svg",
+        "description": "Volvemos tus ideas realidad, con el mejor diseño Rico Programar"
+
+    },
+
+       {
+        "id": "desktopApp",
+        "title": "Aplicación de escritorio",
+        "icon1": "../asets/icons/icon1.svg",
+        "icon2": "../asets/icons/icon2.svg",
+        "description": "Creamos las aplicaciones para tu empresa"
+
+    },
+
+       {
+        "id": "iotSystem",
+        "title": "Diseño web",
+        "icon1": "../asets/icons/icon1.svg",
+        "icon2": "../asets/icons/icon2.svg",
+        "description": "Volvemos tus ideas realidad, con el mejor diseño "
+
+    }
+]
